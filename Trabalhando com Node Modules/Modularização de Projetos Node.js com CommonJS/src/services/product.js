@@ -1,11 +1,16 @@
 async function getFullName(codeId, productName) {
-  console.log("\n");
+  doBreakLine();
   console.log("producto: " + codeId + " -- " + productName);
 }
 
 async function getProductLabel(productName) {
-  console.log("\n");
+  doBreakLine();
   console.log("product: " + productName);
+}
+
+//hidden function
+async function doBreakLine() {
+  console.log("\n");
 }
 
 module.exports = {
