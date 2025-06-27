@@ -1,0 +1,13 @@
+{
+  "name": "simulador-de-corrida-mario-kart",
+  "version": "1.0.0",
+  "description": "simulador-de-corrida-mario-kart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Rinaldo Alves Vilela Neto",
+  "license": "ISC"
+}
