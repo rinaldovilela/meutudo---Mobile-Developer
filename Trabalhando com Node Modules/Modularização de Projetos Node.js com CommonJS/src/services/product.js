@@ -1,5 +1,6 @@
 async function getFullName(codeId, productName) {
-  return codeId + "--" + productName;
+  console.log("\n");
+  console.log("producto: " + codeId + " -- " + productName);
 }
 
 module.exports = {
