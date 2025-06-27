@@ -1,10 +1,10 @@
-const fullName = require("./services/product.js");
+const carrinho = require("./services/product.js");
 
 async function main() {
-  console.log("Olá, meu nome é system!");
-
-  const result = fullName.getFullName("123", "Produto Exemplo");
-  console.log(result);
+  console.log("carrinho de compras");
+  carrinho.getFullName("123", "Produto Exemplo");
+  carrinho.getFullName("456", "Outro Produto");
+  carrinho.getFullName("789", "Mais um Produto");
 }
 
 main();
