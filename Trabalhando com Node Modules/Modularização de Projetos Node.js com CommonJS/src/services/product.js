@@ -2,6 +2,6 @@ async function getFullName(codeId, productName) {
   return codeId + "--" + productName;
 }
 
-MediaSourceHandle.exports = {
+module.exports = {
   getFullName,
 };
