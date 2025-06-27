@@ -1,3 +1,5 @@
+//Exports Deafault
+
 exports.connectToDatabase = async (dataName) => {
   console.log("se conectando ao banco de dados...");
 };

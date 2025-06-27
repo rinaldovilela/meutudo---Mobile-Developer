@@ -1,5 +1,6 @@
 const carrinho = require("./services/product.js");
 const config = require("./services/config.js");
+const database = require("./services/database.js");
 
 async function main() {
   console.log("carrinho de compras");
@@ -15,6 +16,8 @@ async function main() {
     Descrição: ${config.description}`);
 
   console.log("\n Dispositivo do cliente: " + config.client.device);
+
+  database.connectToDatabase("meuBancoDeDados");
 }
 
 main();
