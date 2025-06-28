@@ -1,0 +1,21 @@
+{
+  "userCart": [
+    {
+      "name": "hotwheels ferrari",
+      "price": 20.99,
+      "quantity": 24
+    },
+    {
+      "name": "hotwheels lamborghini",
+      "price": 39.99,
+      "quantity": 90
+    }
+  ],
+  "userWishlist": [
+    {
+      "name": "hotwheels ferrari",
+      "price": 20.99,
+      "quantity": 24
+    }
+  ]
+}
